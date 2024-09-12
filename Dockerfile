@@ -1,4 +1,4 @@
-FROM tomcat:8.0.20-jre8
-MAINTAINER Ashok <ashok@oracle.com>
+FROM tomcat:9.0.93-jre8
+MAINTAINER Anil <anil@123>
 EXPOSE 8080
-COPY target/maven-web-app.war /usr/local/tomcat/webapps/maven-web-app.war
+COPY target/Anil1.war /usr/local/tomcat/webapps/Anil1.war
